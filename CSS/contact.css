@@ -1,0 +1,42 @@
+
+/* ...........Content-Right....... */
+.container .content-right h2
+{
+    text-transform: uppercase;
+}
+.container .content-right .div-1
+{
+    margin-left: 50px;
+}
+.container .content-right .div-1 .fa
+{
+    color: orange;
+    margin-right: 10px;
+}
+.content-div
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 45px;
+}
+
+.content-div .grid
+{
+    width: 100%;
+}
+.content-div .grid .fill-in
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 10px;
+    outline: none;
+    background: #1d1d1d;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+}
+textarea
+{
+    resize: none;
+}

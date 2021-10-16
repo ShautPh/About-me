@@ -1,0 +1,51 @@
+
+.content-education
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    margin: 0 30px;
+}
+.content-education .grid
+{
+    padding: 10px 30px;
+    border-left: 2px solid #fff;
+    margin-bottom: 50px;
+}
+.content-education .grid span
+{
+    padding: 7px 20px;
+    background: #222;
+    border-radius: 20px;
+    color: #ccc;
+    font-weight: 600;
+}
+.fa
+{
+    background: orange;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+}
+.icon-top
+{
+    top: 120px;
+}
+.icon-1
+{
+    left: 360px;
+}
+.icon-2
+{
+    left: 670px;
+}
+.icon-3
+{
+    left: 980px;
+}
+.icon-bottom 
+{
+    top: 380px;
+}

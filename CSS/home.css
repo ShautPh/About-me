@@ -1,0 +1,20 @@
+
+/* ...........Content-Right....... */
+.container .content-right
+{
+    background: #000000;
+    color: #fff;
+}
+.container .content-right .introduce
+{
+    width: 60%;
+    margin:150px auto;
+}
+.container .content-right .introduce h3
+{
+    text-transform: uppercase;
+}
+.container .content-right .introduce span
+{
+    color: orange;
+}

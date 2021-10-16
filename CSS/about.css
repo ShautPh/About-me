@@ -1,0 +1,48 @@
+
+/* ...........Content-Right....... */
+
+.content-div
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 50px;
+}
+.content-div p
+{
+    font-size: 18px;
+}
+
+.div-2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.div-2 .grid
+{
+    background: #141414;
+    height: 25vh;
+    text-align: center;
+    padding-top: 20px;
+}
+.div-2 .grid span
+{
+    font-size: 30px;
+}
+/* .Responsive.... */
+@media(max-width:840px)
+{
+    .container
+    {
+        grid-template-columns: 1fr;
+    }
+    .content-div
+    {
+        grid-template-columns: 1fr;
+    }
+    .div-1
+    {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}

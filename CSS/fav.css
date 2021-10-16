@@ -1,0 +1,55 @@
+/* ...........Content-Right....... */
+
+.introduce 
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    padding: 10px 45px;
+}
+.introduce  .grid
+{
+    background-position: center;
+    background-size: cover;
+    height: 35vh;
+    border-radius: 20px;
+    box-shadow: 1px 2px 6px 1px #aaa;
+}
+.grid:hover
+{
+    transition: .5s;
+    transform: scale(1.1);
+}
+.image-1
+{
+    background-image: url(../Images/coding.jpg);
+}
+
+.image-2
+{
+    background-image: url(../Images/football.jpg);
+}
+.image-3
+{
+    background-image: url(../Images/5.jpg);
+}
+.image-4
+{
+    background-image: url(../Images/search.jpg);
+}
+.image-5
+{
+    background-image: url(../Images/reading.jpg);
+}
+.image-6
+{
+    background-image: url(../Images/music.jpg);
+}
+@media(max-width: 840px)
+{
+    .introduce 
+    {
+        grid-template-columns: 1fr 1fr;
+        padding: 10px 30px;
+    }
+}
